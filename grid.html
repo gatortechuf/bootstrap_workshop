@@ -1,0 +1,74 @@
+<html>
+<head>
+    <title>Grid Test</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <style>
+        body {
+           color: white;
+        }
+
+        .red {
+            background-color: #ff0000;
+        }
+
+        .blue {
+            background-color: #0000ff;
+        }
+
+        .green {
+            background-color: #00ff00;
+            color: black;
+        }
+    </style>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+    <h1 style="color: black;"><center>Partial width</center></h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 green">
+                twelve columns
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 red">
+                eight columns
+            </div>
+            <div class="col-md-4 blue">
+                four columns
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 blue">
+                blue
+            </div>
+            <div class="col-md-8 red">
+                red
+            </div>
+        </div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <h1 style="color: black;"><center>Full width</center></h1>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 green">
+                twelve columns
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 red">
+                six columns
+            </div>
+            <div class="col-md-6 blue">
+                six columns
+            </div>
+        </div>
+    </div>
+</body>
+</html>
